@@ -1,0 +1,26 @@
+
+# Pulls nf-core gitpod image from dockerhub as base environment (contains among others: Ubuntu, nextflow, nf-core, git, Docker, Singularity, Mamba, Conda)
+
+image: nfcore/gitpod:latest
+
+# Update and add additional software
+
+tasks:
+  - name: Update Nextflow
+    command: nextflow self-update
+  - name: Install Quarto
+    command: |
+      wget https://quarto.org/download/latest/quarto-linux-amd64.deb
+      sudo dpkg -i quarto-linux-amd64.deb
+      rm quarto-linux-amd64.deb
+      quarto check all
+
+# Add vscode extensions and settings
+
+#vscode:
+#  extensions:
+
+# Additional commands to run after the image is built (e.g., customise the environment)
+
+#command:
+

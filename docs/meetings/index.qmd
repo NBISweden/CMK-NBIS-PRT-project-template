@@ -1,0 +1,8 @@
+# General information {.unnumbered}
+
+Issues or additions:
+
+>cormac.kinsella@nbis.se
+
+- [GitHub Repo](https://github.com)
+- [Confluence Wiki](https://scilifelab.atlassian.net)

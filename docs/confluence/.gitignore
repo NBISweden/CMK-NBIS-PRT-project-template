@@ -1,0 +1,11 @@
+_site/*
+.quarto/*
+schedule.qmd
+logbook.qmd
+minutes/*
+
+# Exception
+!minutes/README.md
+!minutes/index.qmd
+
+/.quarto/

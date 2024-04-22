@@ -1,0 +1,19 @@
+# Progress meeting 1
+
+
+## Date & location:
+
+
+## Present:
+
+
+## Agenda:
+
+@. Review of [previous actions](YYYYMMDD-02_setup.qmd#actions)
+
+## Actions:
+
+1. Action, Name, Due Date
+
+## Next meeting:
+

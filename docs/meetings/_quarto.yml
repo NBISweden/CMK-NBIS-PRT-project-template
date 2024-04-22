@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "PROJCODE minutes"
+  author: "Cormac Kinsella"
+  date: last-modified
+  search: true
+  page-navigation: true
+  sidebar:
+    title: "GitHub:"
+    style: "docked"
+    search: true
+  repo-url: https://github.com/
+  chapters:
+    - index.qmd
+    - schedule.qmd
+    - part: "Meeting minutes"
+      chapters:
+        - ./YYYYMMDD-01_kickoff.qmd
+        - ./YYYYMMDD-02_setup.qmd
+        - ./YYYYMMDD-03_progress_1.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 4
+    toc-expand: 2
+    toc-location: left
+    toc-title: Contents

@@ -1,0 +1,69 @@
+---
+title: "Logbook"
+date: "1809-02-12"
+author:
+    - name: "Cormac Kinsella"
+      email: "cormac.kinsella@nbis.se"
+format:
+  html:
+     output-file: progress-report.html
+     embed-resources: true
+     theme: [default, custom.scss]
+     toc: true
+     toc-depth: 4
+     toc-expand: 2
+     toc-location: left
+     toc-title: Contents
+     other-links:
+      - text: GitHub Repo
+        icon: github
+        href: https://github.com
+        target: _blank
+      - text: Confluence Wiki
+        href: https://scilifelab.atlassian.net
+        target: _blank
+comments:
+    hypothesis: false
+code-block-bg: true
+code-block-border-left: "#FFBD33"
+code-annotations: hover
+fig-cap-location: margin
+tbl-cap-location: margin
+bibliography: references.bib
+---
+
+# General info & resources
+
+- [GitHub Repo](https://github.com)
+- [Confluence Wiki](https://scilifelab.atlassian.net)
+- Dardel project number (hrs/m): `NAISS_XXX-XX`
+- Storage (GB): `/proj/NAISS_XXX-XX`
+- N.B: edits made to the logbook on Confluence are not retained
+
+# Team
+
+- Main: Jane Doe
+
+# Logbook
+
+## 20240101: experiment 1
+
+```{python}
+
+import platform
+
+print("Platform:", platform.platform())
+print("Python Version:", platform.python_version())
+print("Hello world")
+
+print ("edit")
+```
+
+## 20240102: experiment 2
+
+- Text here, see [@benton2018]
+
+# References (supported in HTML, not on Confluence)
+
+::: {#refs}
+:::

@@ -1,0 +1,43 @@
+# Kickoff meeting
+
+
+## Date & location:
+
+
+## Present:
+
+
+## Agenda:
+
+@. Individual introductions
+
+@. NBIS support introduction
+
+@. Project overview
+
+	- Key goals/deliverables
+
+	- What has been done so far?
+
+@. Support requirements & kickoff timeline
+
+	- What should be prioritized?
+
+@. Data overview
+
+@. HPC compute & storage projects
+
+	- Compute project codes, hours/expiry?
+
+	- Storage project paths, quotas?
+
+@. Meeting frequency & communication preferences?
+
+@. Other discussion points
+
+## Actions:
+
+1. Action, Name, Due Date
+
+## Next meeting:
+
