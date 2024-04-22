@@ -1,6 +1,6 @@
 ---
 title: "Logbook"
-date: "1809-02-12"
+date: last-modified
 author:
     - name: "Cormac Kinsella"
       email: "cormac.kinsella@nbis.se"
