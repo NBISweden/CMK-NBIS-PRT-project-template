@@ -9,31 +9,31 @@
 
 ## Agenda:
 
-@. Individual introductions
+1. Individual introductions
 
-@. NBIS support introduction
+2. NBIS support introduction
 
-@. Project overview
+3. Project overview
 
 	- Key goals/deliverables
 
 	- What has been done so far?
 
-@. Support requirements & kickoff timeline
+4. Support requirements & kickoff timeline
 
 	- What should be prioritized?
 
-@. Data overview
+5. Data overview
 
-@. HPC compute & storage projects
+6. HPC compute & storage projects
 
 	- Compute project codes, hours/expiry?
 
 	- Storage project paths, quotas?
 
-@. Meeting frequency & communication preferences?
+7. Meeting frequency & communication preferences?
 
-@. Other discussion points
+8. Other discussion points
 
 ## Actions:
 
