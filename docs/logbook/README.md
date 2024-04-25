@@ -20,6 +20,11 @@
 
 - N.B: edits made to the logbook on Confluence are not retained
 
+## Untracked local notes
+
+- To make local notes that won't be tracked by Git, nor automatically published to Confluence: make and use the file logbook/untracked_local_notes.qmd
+
+- This file is specified in the `.gitignore` file in the logbook directory, and isn't linked in the Confluence publishing directory
 
 ## Add images
 
