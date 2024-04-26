@@ -63,7 +63,7 @@ print ("edit")
 
 - Text here, see [@benton2018]
 
-# References (supported in HTML, not on Confluence)
+# References (HTML only, not Confluence)
 
 ::: {#refs}
 :::
