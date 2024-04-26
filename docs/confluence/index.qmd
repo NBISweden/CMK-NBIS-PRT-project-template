@@ -6,6 +6,6 @@ Issues or additions:
 
 ## To make changes on Confluence
 
-- Edits made to indexed files (i.e., minutes, logbook, etc.) on Confluence are **not retained** - these files are published unidirectionally from the GitHub Repository
+- Edits made to indexed files (i.e., minutes, logbook, etc.) on Confluence are **not retained** - these files are published unidirectionally from the Git Repository
 
 - Instead, use a new page created directly on Confluence to add content to the project wiki
