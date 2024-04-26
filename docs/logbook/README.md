@@ -28,6 +28,8 @@
 
 ## Add images
 
-- Images can be placed in the assets folder and referenced in the qmd file:
+- Images can be placed in the assets folder and then referenced in the qmd file
 
-`![Figure 1](./assets/figure1.png)`
+- Placing a figure: `![My figure caption](./assets/figure1.png){#fig-my_figure_title}`
+
+- Referencing the figure: `@fig-my_figure_title`
