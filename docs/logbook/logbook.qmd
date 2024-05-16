@@ -38,7 +38,10 @@ bibliography: references.bib
 - [Confluence Wiki](https://scilifelab.atlassian.net)
 - Dardel project number (hrs/m): `NAISS_XXX-XX`
 - Storage (GB): `/proj/NAISS_XXX-XX`
-- N.B: edits made to the logbook on Confluence are not retained
+
+::: {.callout-note}
+Edits made to the logbook on Confluence are not retained
+:::
 
 # Team
 
