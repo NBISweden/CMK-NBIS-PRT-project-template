@@ -1,1 +1,1 @@
-# Software environment files (Docker, Singularity, Mamba/Conda etc.)
+# Software environment files (Docker, Apptainer, Pixi, Mamba, etc.)
