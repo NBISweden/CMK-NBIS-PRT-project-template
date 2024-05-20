@@ -6,7 +6,7 @@ author:
       email: "cormac.kinsella@nbis.se"
 format:
   html:
-     output-file: progress-report.html
+     output-file: logbook.html
      embed-resources: true
      theme: [default, custom.scss]
      toc: true
@@ -32,16 +32,16 @@ tbl-cap-location: margin
 bibliography: references.bib
 ---
 
+::: {.callout-note}
+Edits made to the logbook on Confluence are not retained
+:::
+
 # General info & resources
 
 - [GitHub Repo](https://github.com)
 - [Confluence Wiki](https://scilifelab.atlassian.net)
 - Dardel project number (hrs/m): `NAISS_XXX-XX`
 - Storage (GB): `/proj/NAISS_XXX-XX`
-
-::: {.callout-note}
-Edits made to the logbook on Confluence are not retained
-:::
 
 # Team
 
