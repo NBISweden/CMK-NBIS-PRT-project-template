@@ -6,7 +6,7 @@ author:
       email: "cormac.kinsella@nbis.se"
 format:
   html:
-     output-file: logbook.html
+     output-file: output.html
      embed-resources: true
      theme: [default, custom.scss]
      toc: true
