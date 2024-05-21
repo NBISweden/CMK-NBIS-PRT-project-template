@@ -1,0 +1,9 @@
+---
+title: "Title"
+author: "Cormac Kinsella"
+format:
+  revealjs:
+    incremental: true
+---
+
+# Slide 1
