@@ -1,0 +1,9 @@
+---
+title: Slides
+---
+
+# Revealjs presentations
+
+- Revealjs presentations on confluence are converted into a static text version
+- N.B: edits made on Confluence are not retained
+- To view the original presentation, render the `qmd` file found in `docs/slides` with `quarto preview` or `quarto render`
