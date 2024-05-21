@@ -18,6 +18,12 @@ cd minutes
 for i in ../../meetings/????????-*.qmd; do ln -s -f $i; done
 cd ..
 
+# Revealjs slides
+
+cd slides
+for i in ../../slides/*.qmd; do ln -s -f $i; done
+cd ..
+
 # Publish project to confluence
 
 quarto publish confluence --no-browser
