@@ -1,5 +1,5 @@
 ---
-title: "Title"
+title: "Running slides"
 author: "Cormac Kinsella"
 format:
   revealjs:
