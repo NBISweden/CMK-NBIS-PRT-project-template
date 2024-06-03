@@ -1,9 +1,10 @@
 ---
 title: "Running slides"
-author: "Cormac Kinsella"
+author: "NBIS-XXXXX_XXXX"
 format:
   revealjs:
     incremental: true
+    output-file: output.html
 ---
 
 # Slide 1
