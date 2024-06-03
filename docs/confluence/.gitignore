@@ -3,9 +3,11 @@ _site/*
 schedule.qmd
 logbook.qmd
 minutes/*
+slides/*
 
 # Exception
 !minutes/README.md
 !minutes/index.qmd
-
+!slides/README.md
+!slides/index.qmd
 /.quarto/
