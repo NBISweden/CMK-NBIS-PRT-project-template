@@ -1,3 +1,7 @@
+# Enable extended globbing
+
+shopt -s extglob
+
 # Make symlinks to files for publishing
 
 # Logbook
@@ -12,14 +16,11 @@ for i in ../../../logbook/assets/*.??g; do ln -s -f $i; done
 for i in ../../../slides/assets/*.??g; do ln -s -f $i; done
 cd ../..
 
-# Meetings and schedule
+# Schedule and meetings minutes, if properly formatted and not a meeting template file
 
 ln -s -f ../meetings/schedule.qmd
 cd minutes
-# Clean up prior links
-rm ????????-*.qmd 2> /dev/null
-# Add fresh links
-for i in ../../meetings/????????-*.qmd; do ln -s -f $i; done
+for i in ../../meetings/+([0-9])-*.qmd; do ln -s -f $i; done
 cd ..
 
 # Revealjs slides
