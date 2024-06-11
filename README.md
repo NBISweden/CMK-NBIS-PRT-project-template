@@ -13,23 +13,33 @@
 ## Directory tree description 
 
 ```
-project			# NBIS-WABI_ID named directory
-├── code		# Standalone scripts & workflows
+NBIS-WABI_ID		# NBIS-WABI_ID named directory
+├── code
+│   ├── scripts	# Standalone scripts
+│   ├── slurm		# Slurm scripts
+│   └── workflows	# Nextflow workflows
 ├── docs
 │   ├── article		# Manuscript drafts
 │   ├── confluence	# Confluence publishing directory
-│   │   └── minutes	# Placeholder for confluence site
-│   ├── dashboards	# Dashboards
+│   │   └── minutes	# Placeholder for confluence publishing
+│   │   └── slides	# Placeholder for confluence publishing
+│   ├── dashboards	# Quarto dashboards
 │   ├── logbook		# Code, figures, interpretation
 │   │   └── assets	# Figures for logbook
-│   └── meetings	# Meeting notes
-├── env			# Docker/Mamba software environment config
+│   ├── meetings	# Meeting notes
+│   └── slides		# Revealjs slides
+│       └── assets	# Figures for slides
+├── env		# Software environment/container definition files etc.
+│   └── bin			# Local binaries
 ├── interim		# Intermediate data, not tracked
 ├── processed		# Processed data, not tracked
-├── raw			# Links to raw data, not tracked
+├── raw		# Links to raw data, not tracked
 └── scratch		# Non-essential files/sandbox, not tracked
 .gitpod.yml		# Gitpod cloud dev environment config
 ```
+
+
+
 
 ## How to use this template
 
@@ -39,5 +49,4 @@ project			# NBIS-WABI_ID named directory
 
 ## Gitpod environment to run the repo code in any browser (update URL to the correct repo)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CormacKinsella/NBIS-LTS-project-template)
-
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/NBISweden/CMK-NBIS-PRT-project-template)
