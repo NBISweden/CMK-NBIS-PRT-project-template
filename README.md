@@ -15,7 +15,7 @@
 ```
 NBIS-WABI_ID		# NBIS-WABI_ID named directory
 ├── code
-│   ├── scripts	# Standalone scripts
+│   ├── scripts		# Standalone scripts
 │   ├── slurm		# Slurm scripts
 │   └── workflows	# Nextflow workflows
 ├── docs
@@ -29,11 +29,11 @@ NBIS-WABI_ID		# NBIS-WABI_ID named directory
 │   ├── meetings	# Meeting notes
 │   └── slides		# Revealjs slides
 │       └── assets	# Figures for slides
-├── env		# Software environment/container definition files etc.
-│   └── bin			# Local binaries
+├── env			# Software environment/container definition files etc.
+│   └── bin		# Local binaries
 ├── interim		# Intermediate data, not tracked
 ├── processed		# Processed data, not tracked
-├── raw		# Links to raw data, not tracked
+├── raw			# Links to raw data, not tracked
 └── scratch		# Non-essential files/sandbox, not tracked
 .gitpod.yml		# Gitpod cloud dev environment config
 ```
