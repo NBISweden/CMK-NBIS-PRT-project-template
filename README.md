@@ -21,6 +21,7 @@ NBIS-WABI_ID		# NBIS-WABI_ID named directory
 ├── docs
 │   ├── article		# Manuscript drafts
 │   ├── confluence	# Confluence publishing directory
+│   │   └── assets	# Placeholder for confluence publishing
 │   │   └── minutes	# Placeholder for confluence publishing
 │   │   └── slides	# Placeholder for confluence publishing
 │   ├── dashboards	# Quarto dashboards
