@@ -4,8 +4,10 @@ schedule.qmd
 logbook.qmd
 minutes/*
 slides/*
+assets/*
 
 # Exception
+!assets/README.md
 !minutes/README.md
 !minutes/index.qmd
 !slides/README.md
