@@ -10,7 +10,7 @@ format:
      embed-resources: true
      theme: [default, custom.scss]
      toc: true
-     toc-depth: 3
+     toc-depth: 4
      toc-expand: 3
      toc-location: left
      toc-title: Contents
