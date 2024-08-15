@@ -1,12 +1,12 @@
 # Workflows
 
-- Workflows in this directory should be hosted in their own GitHub repositories and added here as a **git submodules**
+- Workflows in this directory should be hosted in their own GitHub repositories and added here as **git submodules**
 
 - To do this, create a remote repository, then run `git submodule add https://github.com/NBISweden/link-to-workflow-repo`
 
 - This allows both repos to be permanently linked, but with separate commit histories
 
-- Instead of a `.git` directory, the submodule will point to a location where it's git history is stored within the main repo
+- Instead of a `.git` directory, the submodule will point to a location where the git history is stored within the main repo
 
 - If using nf-core/tools, `nf-core create` automatically generates a local .git repo. In this case:
 
