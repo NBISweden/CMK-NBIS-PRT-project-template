@@ -1,53 +1,34 @@
-# NBIS-WABI_ID
+# Workflows
 
-- For peer-review track projects, name the repository: NBIS-WABI_ID, where the WABI_ID = PI's first name initial(s), PI's surname, and the year and month (YYMM) of the application deadline
+## General setup
 
-- E.g. NBIS-M_Bergö_1305
+- Workflows in this directory should be hosted in their own GitHub repositories and added here as **git submodules**
 
-- While creating repo choose "Private"
+- To do this, create a remote repository (e.g., `gh repo create`), then run `git submodule add https://github.com/NBISweden/link-to-workflow-repo`
 
-- Go to repository "Settings" -> "Collaborators and Teams" -> search field in "Manage Access" and type "Staff"
+- This allows both repos to be permanently linked, but with separate commit histories
 
-- Give access to "Staff" team (Read, Write, etc.)
+- Instead of a `.git` directory, the submodule will point to a location where the git history is stored within the main repo
 
-## Directory tree description 
+## With nf-core
 
-```
-NBIS-WABI_ID		# NBIS-WABI_ID named directory
-├── code
-│   ├── scripts		# Standalone scripts
-│   ├── slurm		# Slurm scripts
-│   └── workflows	# Nextflow workflows
-├── docs
-│   ├── article		# Manuscript drafts
-│   ├── confluence	# Confluence publishing directory
-│   │   └── assets	# Placeholder for confluence publishing
-│   │   └── minutes	# Placeholder for confluence publishing
-│   │   └── slides	# Placeholder for confluence publishing
-│   ├── dashboards	# Quarto dashboards
-│   ├── logbook		# Code, figures, interpretation
-│   │   └── assets	# Figures for logbook
-│   ├── meetings	# Meeting notes
-│   └── slides		# Revealjs slides
-│       └── assets	# Figures for slides
-├── env			# Software environment/container definition files etc.
-│   └── bin		# Local binaries
-├── interim		# Intermediate data, not tracked
-├── processed		# Processed data, not tracked
-├── raw			# Links to raw data, not tracked
-└── scratch		# Non-essential files/sandbox, not tracked
-.gitpod.yml		# Gitpod cloud dev environment config
-```
+- If using nf-core/tools, `nf-core create` automatically generates a local .git repo. In this case:
 
+1. Create the template locally: `nf-core create`
 
+2. Push it to a remote: `gh repo create`
 
+3. Push all the extra branches: `git push --all origin`
 
-## How to use this template
+4. On the remote, set `dev` as the default branch
 
-`gh repo create` -> Create new repo on GitHub from template
+5. Delete the locally created repository
 
-`gh repo clone <REPO>` -> Clone the new repo to local machine
+6. Add it again as a submodule: `git submodule add https://github.com/NBISweden/link-to-workflow-repo`
 
-## Gitpod environment to run the repo code in any browser (update URL to the correct repo)
+## Cloning a repository containing submodules in another location
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/NBISweden/CMK-NBIS-PRT-project-template)
+- When cloning a repo with submodules, the submodule directories will be empty at first
+
+- To populate them, first run `git submodule init`, then `git submodule update`
+
