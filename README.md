@@ -12,6 +12,8 @@
 
 - Invite PI and collaborators with Write access using usernames -> "Add people"
 
+- [Setup the Confluence](https://scilifelab.atlassian.net/wiki/spaces/NBISINTRA/pages/2598764891/Creating+a+Confluence+Space+for+a+new+project)
+
 ## Directory tree description 
 
 ```
