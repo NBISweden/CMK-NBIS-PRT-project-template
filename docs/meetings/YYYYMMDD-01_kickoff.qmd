@@ -35,6 +35,17 @@
 
 8. Other discussion points
 
+	- GitHub:
+		- Central Private project repo on the NBISweden GitHub organization
+		- Used for code versioning, logbook, meeting notes, etc.
+		- If necessary for the project, can also house submodule repository for specific codebases (e.g. a Nextflow workflow)
+		- GitHub usernames to invite
+
+	- Confluence:
+		- Private Wiki for viewing rendered logbook files, meeting minutes
+		- Based on the GitHub repository
+		- Email addresses to invite
+
 ## Actions:
 
 1. Action, Name, Due Date
