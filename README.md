@@ -6,9 +6,11 @@
 
 - While creating repo choose "Private"
 
-- Go to repository "Settings" -> "Collaborators and Teams" -> search field in "Manage Access" and type "Staff"
+- Go to repository "Settings" -> "Collaborators and Teams" -> "Add teams" -> type "Staff"
 
 - Give access to "Staff" team (Read, Write, etc.)
+
+- Invite PI and collaborators with Write access using usernames -> "Add people"
 
 ## Directory tree description 
 
@@ -38,9 +40,6 @@ NBIS-WABI_ID		# NBIS-WABI_ID named directory
 └── scratch		# Non-essential files/sandbox, not tracked
 .gitpod.yml		# Gitpod cloud dev environment config
 ```
-
-
-
 
 ## How to use this template
 
