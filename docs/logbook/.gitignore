@@ -1,4 +1,4 @@
 .quarto/*
 logbook.xml
 logbook_files/*
-untracked_local_notes.qmd
+*untracked_notes.qmd
