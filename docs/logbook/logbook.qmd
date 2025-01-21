@@ -45,26 +45,10 @@ Edits made to the logbook on Confluence are not retained
 
 # Team
 
-- Main: Jane Doe
 
-# Logbook
+# Logbook (reverse chronological)
 
-## 20240101: experiment 1
 
-```{python}
-
-import platform
-
-print("Platform:", platform.platform())
-print("Python Version:", platform.python_version())
-print("Hello world")
-
-print ("edit")
-```
-
-## 20240102: experiment 2
-
-- Text here, see [@benton2018]
 
 # References (HTML only, not Confluence)
 
