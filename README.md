@@ -18,6 +18,7 @@
 
 ```
 NBIS-WABI_ID		# NBIS-WABI_ID named directory
+├──.devcontainer	# Codespaces cloud dev config
 ├── code
 │   ├── scripts		# Standalone scripts
 │   ├── slurm		# Slurm scripts
@@ -40,7 +41,6 @@ NBIS-WABI_ID		# NBIS-WABI_ID named directory
 ├── processed		# Processed data, not tracked
 ├── raw			# Links to raw data, not tracked
 └── scratch		# Non-essential files/sandbox, not tracked
-.gitpod.yml		# Gitpod cloud dev environment config
 ```
 
 ## How to use this template
