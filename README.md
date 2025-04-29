@@ -49,6 +49,6 @@ NBIS-WABI_ID		# NBIS-WABI_ID named directory
 
 `gh repo clone <REPO>` -> Clone the new repo to local machine
 
-## Gitpod environment to run the repo code in any browser (update URL to the correct repo)
+### Cloud development environment (update URL to the project repo)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/NBISweden/CMK-NBIS-PRT-project-template)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NBISweden/CMK-NBIS-PRT-project-template)

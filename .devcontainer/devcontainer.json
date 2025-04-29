@@ -1,0 +1,5 @@
+{
+	"name": "Nextflow development environment",
+	"image": "ghcr.io/cormackinsella/nf-development:latest",
+	"remoteUser": "codespace"
+}
